@@ -1,0 +1,54 @@
+.erro {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 60%;
+}
+
+.form {
+  margin: auto;
+  height: 40vh;
+  text-align: center;
+  margin-top: 40vh;
+}
+
+.form form{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.form form input {
+  width: 100%;
+  margin-top: 3vh;
+  outline: none;
+  padding: 4px 12px;
+  border-radius: 50px;
+}
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+.form form button {
+  width: 100px;
+  margin: auto;
+  padding: 6px 12px;
+  border: none;
+  background: #4790e4;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.form form button:hover {
+  background: #3b78be;
+}
